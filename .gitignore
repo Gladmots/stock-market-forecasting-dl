@@ -1,0 +1,15 @@
+# venv
+.venv/
+
+# Python junk
+__pycache__/
+*.pyc
+
+# Generated data & artifacts
+stock_market_forecasting/src/stock_data.csv
+stock_market_forecasting/src/models/
+stock_market_forecasting/src/outputs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
