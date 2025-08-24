@@ -1,15 +1,17 @@
-# venv
+# virtual envs
 .venv/
+venv/
+env/
 
-# Python junk
-__pycache__/
-*.pyc
-
-# Generated data & artifacts
-stock_market_forecasting/src/stock_data.csv
+# build artifacts / large outputs
 stock_market_forecasting/src/models/
 stock_market_forecasting/src/outputs/
-
-# OS/editor
-.DS_Store
-Thumbs.db
+stock_market_forecasting/src/stock_data.csv
+outputs/
+models/
+*.keras
+*.pkl
+*.h5
+*.pdf
+*.png
+*.csv
