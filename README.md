@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ## Start Program
 
-## Download data
+### Download data
 
 python -m stock_market_forecasting.cli download \
   --ticker AAPL --start 2010-01-01 --end 2024-01-01
@@ -50,7 +50,7 @@ python -m stock_market_forecasting.cli download \
 
 Creates a cleaned dataset under data/processed/.
 
-## Train a model
+### Train a model
 
 python -m stock_market_forecasting.cli train \
   --ticker AAPL --seq-len 60 --epochs 60 --batch-size 32 --model lstm
@@ -58,12 +58,12 @@ python -m stock_market_forecasting.cli train \
 
 Saves weights, scaler, and training history to models/.
 
-## Forecast & evaluate
+### Forecast & evaluate
 
 python -m stock_market_forecasting.cli forecast \
   --ticker AAPL --horizon 30
 
-## Outputs
+### Outputs
 
 1. CSV
 2. Images
